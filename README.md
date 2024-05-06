@@ -11,20 +11,23 @@ The app uses Kotlin with Android's AppCompatActivity and kotlinx.coroutines for 
 
 ## Code Explanation
 ### Initialization
-# Picture
+![IMAD5111A2_Var1](https://github.com/AnthemVH/IMAD5111A2/assets/113454977/1ad2237e-5e40-47a4-8c6d-b1492ae8f09a)
+
 Initialize the status variables (Hunger, Clean, Happy) with default values.
 
 ### UI Setup
+![IMAD5111A2_UI](https://github.com/AnthemVH/IMAD5111A2/assets/113454977/a8182aad-f8a4-46ad-8dfc-2d184995a8e2)
 
-# picture
 In the onCreate method, initialize UI elements and set initial status values.
 
 ### Button Actions
-# Picture
+![IMAD5111A2_BTN](https://github.com/AnthemVH/IMAD5111A2/assets/113454977/609bde0b-bdeb-4183-880e-e2e76d338995)
+
 Define actions for each button click. This updates the status values and changes the pet's image accordingly.
 
 ### Coroutines for Status Update
-# Picture
+![IMAD5111A2_Counter](https://github.com/AnthemVH/IMAD5111A2/assets/113454977/3d5015d5-8aa8-43a7-8811-4cc4e299868b)
+
 
 - 'startIncrement()': Starts a coroutine that updates the pet's status periodically. The coroutine runs until it's cancelled.
 - 'onResume()', 'onPause()', 'onDestroy()': Manage the lifecycle of the coroutine to start, pause, and cancel accordingly.
