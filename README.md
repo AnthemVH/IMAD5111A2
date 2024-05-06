@@ -1,6 +1,12 @@
 # Virtual Pet App
 This is a simple virtual pet app where you can take care of a dog by feeding, cleaning, and playing with it. The app updates the pet's status (Hunger, Cleanliness, and Happiness) based on the actions you take.
 
+## Demostration Video
+
+https://github.com/AnthemVH/IMAD5111A2/assets/113454977/dba19a80-c4e1-4251-92d4-82e37336c3f9
+
+(https://youtu.be/w5AQJ60UlQ0)
+
 ## Overview
 The app uses Kotlin with Android's AppCompatActivity and kotlinx.coroutines for handling asynchronous tasks. Here's a breakdown of the key components:
 
