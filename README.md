@@ -9,6 +9,12 @@ The app uses Kotlin with Android's AppCompatActivity and kotlinx.coroutines for 
 - Status Display: Shows the current levels of Hunger, Cleanliness, and Happiness using TextView elements.
 - Image Display: An ImageView displays the pet's state (e.g., regular, eating, cleaned, being played with) based on the actions taken.
 
+## Usage
+- Run the app on an Android device or emulator.
+- Interact with the pet by clicking the Feed, Clean, and Play buttons.
+- Observe how the pet's status changes over time.
+- The app stops updating when the pet's status becomes critical ('Hunger < 0', 'Clean > 100', 'Happy > 100').
+
 ## Code Explanation
 ### Initialization
 ![IMAD5111A2_Var1](https://github.com/AnthemVH/IMAD5111A2/assets/113454977/1ad2237e-5e40-47a4-8c6d-b1492ae8f09a)
@@ -31,11 +37,7 @@ Define actions for each button click. This updates the status values and changes
 
 - 'startIncrement()': Starts a coroutine that updates the pet's status periodically. The coroutine runs until it's cancelled.
 - 'onResume()', 'onPause()', 'onDestroy()': Manage the lifecycle of the coroutine to start, pause, and cancel accordingly.
-## Usage
-- Run the app on an Android device or emulator.
-- Interact with the pet by clicking the Feed, Clean, and Play buttons.
-- Observe how the pet's status changes over time.
-- The app stops updating when the pet's status becomes critical ('Hunger < 0', 'Clean > 100', 'Happy > 100').
+
 
 ## Demostration Video
 
